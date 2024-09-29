@@ -1,0 +1,178 @@
+@font-face {
+  font-family: quicksand;
+  src: url(graphs/quicksand.light-regular.otf);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-auto-rows: 125px;
+  gap: 40px;
+
+}
+
+form{
+  color: white;
+}
+
+body{
+  font-family: quicksand;
+  
+  background: url('graphs/pexels-pixabay-221012 (1).jpg');
+
+}
+
+header{
+  /* background: linear-gradient(to right, black, yellow); */
+   padding: 20px;
+  align-items: center;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+
+ /* opacity: 0; */
+}
+
+nav{
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+  padding-left: 80px;
+}
+
+a:hover{
+  color: white;
+}
+
+div{
+  font-weight: bold;
+}
+
+
+
+img{
+  margin-top: 60px;
+  opacity: 0.9;
+}
+
+#form{
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+button{
+  font-size: 20px;
+}
+
+
+input{
+  /* display: block; */
+
+}
+
+
+
+p{
+  display: inline-block; 
+  font-size: 25px;
+  font-style: bold;
+  border: none;
+}
+
+#CBDD{
+  font-size: 60px;
+}
+
+
+canvas{
+   /* background: lightgray;  */
+   float: left;
+  
+}
+
+ 
+
+#hospital{
+   background: black; 
+   
+} 
+
+ 
+
+#university, #hospital{
+   background: yellow; 
+   color: black;
+}
+
+#industrialSite{
+   background: yellow;
+   height: 70%;
+   width: 30%;
+   float: right;
+ }
+
+div{
+   
+  text-align: center;
+  border-radius: 15px;
+}
+
+.container div{
+  border: white solid 2px;
+}
+
+#Thornhill{
+  /* background: lightgray; */  
+  color: white;
+}
+
+#Senga{
+  /* background: lightgray; */
+  color: white;
+      
+}
+
+#Ridgemont{
+ /* background: lightgray; */
+  color: white;
+}
+
+#Ivene{
+ /* background: lightgray; */
+  color: white;
+}
+
+#Riverside{
+ /* background: lightgray; */
+ color: white;
+}
+
+#CBD{
+  /* background: lightgray; */
+  grid-column: 1 / 4;
+  grid-row: 2/4; 
+}
+
+ 
+#incorrectPassword{
+  width: 60%;
+  margin: 0 auto;
+ 
+} 
+
+#incorrectPassword p{
+   font-size: 50px;
+   color: white;
+}
+
+
+button{
+  padding: 10px;
+  background: rgb(255, 165, 0, 0.6);
+ }

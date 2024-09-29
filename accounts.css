@@ -1,0 +1,106 @@
+@font-face {
+  font-family: quicksand;
+  src: url(graphs/quicksand.light-regular.otf);
+}
+
+body{
+  font-family: quicksand;
+  font-size: 30px;
+  background: url("pexels(1).jpg");
+  background-size: auto;
+  background-repeat: no-repeat; 
+
+}
+
+
+
+form, input, button{
+	font-size: 30px;
+	font-family: quicksand;
+
+}
+
+header{
+  /* background: linear-gradient(to right, black, yellow); */
+   padding: 20px;
+  align-items: center;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+
+ /* opacity: 0; */
+}
+
+nav{
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+  padding-left: 80px;
+}
+
+a:hover{
+  color: white;
+}
+
+
+input{
+	display: block;
+	
+}
+
+form, fieldset{
+	width: 60%;
+	margin: 0 auto;
+}
+
+label{
+	display: block;
+	width: 50%;
+}
+
+input, label{
+	margin: 0 auto;
+	width: 50%;
+	margin-bottom: 10px;
+}
+
+button{
+	display: block;
+	
+	margin: 0 auto;
+
+
+}
+
+form{
+	margin-top: 80px;
+}
+
+legend{
+	text-align: center;
+}
+
+input, label{
+	margin-top: 20px;
+}
+
+button{
+	margin-top: 20px;
+
+}
+
+ button{
+ 	padding: 10px;
+ 	background: rgb(255, 165, 0, 0.6);
+ }
+
+
+ input{
+	padding: 10px;
+}
